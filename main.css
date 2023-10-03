@@ -1,6 +1,28 @@
 body{
     background-color: rgb(87, 87, 87) ;
 }
+body::-webkit-scrollbar{
+    width: 9px;
+    /* display: none; */
+}
+body::-webkit-scrollbar:hover{
+    display: contents;
+}
+/* body::-webkit-scrollbar-track{
+    background: aliceblue;
+} */
+/* body::-webkit-scrollbar-button{
+    background-color: black;
+} */
+body::-webkit-scrollbar-thumb{
+    background-color: rgb(255, 68, 0);
+    border-radius: 5px;
+}
+body{
+    scrollbar-width: thin;
+    scrollbar-color:  rgb(255, 68, 0);
+    
+}
 .hed{
     right:100vw;
     cursor: default;
